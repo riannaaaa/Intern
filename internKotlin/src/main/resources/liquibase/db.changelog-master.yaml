@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/01-create-merchant.xml
+  - include:
+      file: liquibase/02-insert-merchant.xml
